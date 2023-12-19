@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+table{
+    padding: 5px;
+    background-color: rgb(143, 165, 158);    
+    text-align: center;
+    width: 90%;
+}

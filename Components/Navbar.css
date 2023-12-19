@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: auto;
+    width: 100%;
+    background: black;
+    text-align: center;
+}
+.navart{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    padding: 8px;
+    text-align: center;
+    
+}
+
+button:hover{
+    background: white;
+    color: black;
+}

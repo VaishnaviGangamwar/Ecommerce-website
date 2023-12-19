@@ -1,0 +1,83 @@
+.sec{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.carousel{
+    margin-top: 100px;
+}
+.legend button{
+    background-color: white;
+    color: black;
+}
+
+.landpage{
+    background: url("https://image.spreadshirtmedia.com/content/f_auto,q_80/v2/CMS/Startpage/Hero/christmas2023v2/Xmas23_HP2_desktop_NA/XmasHP2_23_HPteaser_desktop_NA.png");
+    background-position: 50%;    
+    background-repeat: no-repeat;    
+    background-size: cover;    
+    height: 90vh; 
+    width: 100%;   
+    text-align: center;
+}
+
+.landpage h1{
+    /* margin-top: 40px; */
+    font-size: 100px;
+    z-index: 1;
+    /* opacity: 0.8; */
+    color: white;
+    font-weight:bolder;
+}
+
+.image{
+    margin-left: 190px;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+/* .footermain{
+    height: auto;
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+  } */
+  
+  .box1,.box2,.box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .box2 p{
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 830px){
+    section{
+        height: auto;
+    }
+    .box1,.box3{
+        display: flex;
+    }
+  }

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.About{
+    height: 20vh;
+    display: flex;
+    
+}
+.right img{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.left{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   padding: 40px;
+   padding-top: 140px;
+}

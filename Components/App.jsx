@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './Project6Ecom/Components/Home'
 import Cart from './Project6Ecom/Components/Cart'
 import Navbar from './Project6Ecom/Components/Navbar'
